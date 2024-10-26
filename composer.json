@@ -1,0 +1,25 @@
+{
+  "name": "nouvic/mobius-trader",
+  "description": "Mobius Trader API Library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vicky Durel",
+      "email": "vicky@nouvic.online"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MobiusTrader\\": "src/MobiusTrader"
+    }
+  },
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
